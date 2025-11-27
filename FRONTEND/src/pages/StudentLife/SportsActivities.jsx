@@ -3,40 +3,8 @@ import { assets } from "../../assets/assets";
 import { Trophy, Users } from "lucide-react";
 
 const SportsActivities = () => {
+  // Only top 3 banner images
   const banners = [assets.sport1, assets.sport2, assets.sport3];
-
-  const facilities = [
-    {
-      name: "Football & Multi-use Ground",
-      image: assets.football,
-      desc: "A large ground used for football, athletics drills, and can be arranged for volleyball when needed.",
-    },
-    {
-      name: "Basketball Court",
-      image: assets.basketball,
-      desc: "Outdoor court for friendly matches, practice sessions, and inter-school events.",
-    },
-    {
-      name: "Indoor Hall (Badminton / Table Tennis)",
-      image: assets.hall || assets.Auditorium,
-      desc: "A multi-purpose indoor hall used for badminton, table tennis and school functions.",
-    },
-    {
-      name: "Indoor Games",
-      image: assets.indoor || assets.handball,
-      desc: "Indoor activities like chess, carrom and other table games that build concentration and strategy.",
-    },
-    {
-      name: "Yoga & PT Sessions",
-      image: assets.yoga || assets.handball,
-      desc: "Regular yoga and physical training sessions to promote flexibility, breathing practices and overall fitness.",
-    },
-    {
-      name: "Physiotherapy Support",
-      image: assets.physiotherapy || assets.home3,
-      desc: "Physiotherapy sessions and basic rehabilitation support available when required for students.",
-    },
-  ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -89,43 +57,25 @@ const SportsActivities = () => {
         </div>
 
         <p className="text-gray-700 leading-relaxed text-center md:text-justify">
-          Sports and physical activities are an important part of student life at PM SHRI Govt. High School Chuchot Yokma.
-          Our facilities focus on inclusive participation — from field games to indoor events — with regular training,
-          yoga, and physiotherapy support available to help students stay fit and confident.
+          At PM Shri Govt. High School Chuchot Yokma, sports and physical activities are an essential part of student life.
+          We provide a variety of indoor and outdoor games, yoga sessions, and physiotherapy support to ensure that every student develops fitness, teamwork, and confidence.
         </p>
       </div>
 
-      {/* Facilities Grid */}
+      {/* Sports Available */}
       <div className="max-w-6xl mx-auto px-6 pb-16">
-        <h2 className="text-2xl font-semibold text-rose-700 text-center mb-10 border-b-2 border-rose-300 pb-1 inline-block">
-          Our Sports Facilities
+        <h2 className="text-2xl font-semibold text-rose-700 text-center mb-6 border-b-2 border-rose-300 pb-1 inline-block">
+          Sports & Activities Available
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
-          {facilities.map((sport, i) => (
-            <div
-              key={i}
-              className="bg-white shadow-md rounded-2xl overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300 w-full"
-            >
-              <div className="w-full h-52 overflow-hidden">
-                <img
-                  src={sport.image}
-                  alt={sport.name}
-                  className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-
-              <div className="p-5 text-center">
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                  {sport.name}
-                </h3>
-                <p className="text-sm text-gray-600 leading-relaxed">
-                  {sport.desc}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
+        <ul className="list-disc list-inside text-gray-700 max-w-3xl mx-auto space-y-2 text-lg">
+          <li>Football & Multi-use Ground – for football, athletics drills, and volleyball arrangements.</li>
+          <li>Basketball Court – outdoor matches and practice sessions.</li>
+          <li>Indoor Hall – used for badminton, table tennis, and school events.</li>
+          <li>Indoor Games – chess, carrom, and other table games to develop strategy and focus.</li>
+          <li>Yoga & Physical Training – sessions to improve flexibility, breathing, and overall fitness.</li>
+          <li>Physiotherapy Support – rehabilitation and wellness programs for students when required.</li>
+        </ul>
       </div>
 
       {/* Closing */}
@@ -133,11 +83,11 @@ const SportsActivities = () => {
         <div className="max-w-4xl mx-auto text-center px-6">
           <Users className="mx-auto text-rose-600 w-8 h-8 mb-3" />
           <h3 className="text-2xl font-semibold text-rose-700 mb-2">
-            Sport for All
+            Sports for All
           </h3>
           <p className="text-gray-700 leading-relaxed">
-            Every student is encouraged to join activities at their comfort level.
-            Our goal is to build fitness, teamwork, and lasting habits of well-being.
+            Every student is encouraged to participate at their comfort level.
+            Our goal is to build fitness, teamwork, and lasting habits of well-being in a supportive environment.
           </p>
         </div>
       </div>

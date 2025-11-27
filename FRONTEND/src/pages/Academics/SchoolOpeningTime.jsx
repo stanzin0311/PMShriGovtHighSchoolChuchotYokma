@@ -14,7 +14,7 @@ const SchoolOpeningTime = () => {
       title: "Winter Timing",
       icon: <Snowflake className="w-8 h-8 text-rose-700" />,
       duration: "Nov - Mar",
-      note: "From 10:30 AM - To 4:30 PM",
+      note: "From 10:30 AM - To 3:30 PM",
     },
     {
       title: "Winter Holidays",

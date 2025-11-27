@@ -57,35 +57,15 @@ const CommunityOutreach = () => {
           <li>Encourage community involvement in school activities.</li>
         </ul>
 
-        {assets.SMC_Group && (
+        {assets.home1 && (
           <div className="mt-4">
             <img
-              src={assets.SMC_Group}
+              src={assets.home1}
               alt="School Management Committee"
               className="w-full rounded-xl shadow-lg object-cover hover:scale-[1.02] transition-transform duration-300"
             />
           </div>
         )}
-      </div>
-      {/* ------------------ END SMC SECTION ------------------ */}
-
-      {/* Volunteer Button */}
-      <div className="text-center">
-        <a
-          href="/community/volunteer"
-          className="inline-block bg-rose-700 hover:bg-rose-600 text-white font-semibold px-8 py-3 rounded-full shadow-lg transform hover:scale-105 transition duration-300"
-        >
-          Volunteer With Us
-        </a>
-      </div>
-
-      {/* Image Section */}
-      <div className="mt-10">
-        <img
-          src={assets.CommunityOutreach1}
-          alt="Community Outreach"
-          className="w-full object-cover rounded-2xl shadow-2xl hover:scale-[1.02] transition-transform duration-300"
-        />
       </div>
 
     </div>

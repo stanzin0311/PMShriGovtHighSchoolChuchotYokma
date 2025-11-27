@@ -3,45 +3,45 @@ import React, { useMemo, useState } from "react";
 const DUMMY_NEWS = [
     {
         id: 1,
-        title: "Launch of Project Aurora",
-        excerpt: "We launched Project Aurora to modernize our frontend stack and improve performance across devices.",
-        date: "2025-10-01",
-        category: "Product",
+        title: "Admission Notifications for 2025-26",
+        excerpt: "Admissions for Class 9 and other transfer cases are now open. Contact the school office for details.",
+        date: "2025-11-01",
+        category: "Admissions",
     },
     {
         id: 2,
-        title: "Design System v2 Released",
-        excerpt: "The new design system introduces tokens, accessible components, and refined spacing scale.",
-        date: "2025-09-21",
-        category: "Design",
+        title: "Free Textbooks & Uniforms Distributed",
+        excerpt: "As part of PM SHRI and Samagra Shiksha initiatives, students received textbooks and uniforms for the academic year.",
+        date: "2025-09-15",
+        category: "Programs",
     },
     {
         id: 3,
-        title: "Quarterly Performance Report",
-        excerpt: "Key metrics improved in Q3 thanks to optimizations and reduced client bundle sizes.",
-        date: "2025-09-10",
-        category: "Reports",
+        title: "Sports Week Celebration",
+        excerpt: "Students participated in football, basketball, yoga, and other activities to promote fitness and teamwork.",
+        date: "2025-08-20",
+        category: "Sports",
     },
     {
         id: 4,
-        title: "Community Hackathon Winners",
-        excerpt: "Congrats to the winners whose creative integrations made the platform more extensible.",
-        date: "2025-08-30",
+        title: "Community Outreach Initiative",
+        excerpt: "Students engaged with the local community in cleanliness drives and social awareness programs.",
+        date: "2025-07-30",
         category: "Community",
     },
     {
         id: 5,
-        title: "Accessibility Audit Complete",
-        excerpt: "An accessibility audit helped surface improvements and increased keyboard/navigation support.",
-        date: "2025-08-12",
-        category: "Engineering",
+        title: "Special Education & Braille Learning",
+        excerpt: "Students with special needs received support through Braille classes, physiotherapy, and adaptive learning resources.",
+        date: "2025-06-10",
+        category: "Inclusion",
     },
     {
         id: 6,
-        title: "New API Endpoints",
-        excerpt: "New endpoints for analytics and webhooks improved developer experience and reduced latency.",
-        date: "2025-07-28",
-        category: "API",
+        title: "Middle & Secondary Stage Academic Updates",
+        excerpt: "Teachers updated parents on student progress, emphasizing English communication and skill development.",
+        date: "2025-05-25",
+        category: "Academics",
     },
 ];
 
@@ -77,7 +77,7 @@ export default function News() {
                 {/* Header */}
                 <header className="mb-8">
                     <h1 className="text-3xl font-semibold text-gray-900">News & Updates</h1>
-                    <p className="mt-2 text-gray-600">Latest announcements, reports, and community highlights.</p>
+                    <p className="mt-2 text-gray-600">Latest announcements, programs, and activities at PM SHRI Govt. High School Chuchot Yokma.</p>
                 </header>
 
                 {/* Search & Filter */}
@@ -104,7 +104,7 @@ export default function News() {
                     </div>
                 </div>
 
-                {/* News Cards — 2 per row */}
+                {/* News Cards */}
                 <section>
                     <div className="grid gap-6 sm:grid-cols-2">
                         {visible.length === 0 ? (
@@ -113,7 +113,7 @@ export default function News() {
                             </div>
                         ) : visible.map(item => (
                             <article key={item.id} className="flex flex-col rounded-lg border bg-white shadow-sm overflow-hidden">
-                                {/* PM SHRI Theme Gradient */}
+                                {/* Category Banner */}
                                 <div className="h-28 bg-gradient-to-r from-rose-700 via-rose-600 to-rose-500 flex items-center justify-center text-white font-semibold">
                                     <span className="uppercase text-sm tracking-wider">{item.category}</span>
                                 </div>

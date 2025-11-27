@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { assets } from "../../assets/assets"; // use your real imported images
-
+import { assets } from "../../assets/assets"; 
       <div className="max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl border-4 border-rose-200">
         <img src={assets.kindergartenGroup} alt="lower Students"className="w-full h-[350px] md:h-[450px] object-cover object-center"/>
       </div>
 
 const LowerSchool = () => {
-  const slides = [assets.home1, assets.home2, assets.home3, assets.home4];
+  const slides = [assets.juniorsection1, assets.juniorsection2, ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {

@@ -23,7 +23,7 @@ const FinancialAid = () => {
       {/* About Financial Support */}
       <p className="text-gray-700 leading-relaxed text-lg font-medium">
         As a <strong>PM SHRI Government High School</strong> under the <strong>Samagra Shiksha</strong> initiative of the Central Government, 
-        we ensure that **every student receives quality education at zero cost**.  
+        we ensure that <strong>every student receives quality education at zero cost</strong>.  
         No tuition fee is charged to any student — education and development are fully sponsored by the government.
       </p>
 
@@ -51,7 +51,7 @@ const FinancialAid = () => {
         <div className="bg-white shadow-sm border border-rose-100 p-6 rounded-2xl space-y-3 hover:shadow-md transition">
           <Baby className="w-10 h-10 text-rose-600" />
           <h2 className="font-semibold text-rose-700 text-lg">Support for Special Needs (CWSN)</h2>
-          <p className="text-gray-600">Students with special needs receive assistive devices, therapy support & personalized learning plans.</p>
+          <p className="text-gray-600">Students with special needs receive assistive devices, therapy support and personalized learning plans.</p>
         </div>
 
         <div className="bg-white shadow-sm border border-rose-100 p-6 rounded-2xl space-y-3 hover:shadow-md transition">
@@ -63,8 +63,8 @@ const FinancialAid = () => {
 
       {/* Closing Statement */}
       <p className="text-gray-700 leading-relaxed text-lg text-center font-semibold">
-        We strongly believe that **every child — regardless of background — deserves equal access to quality education, care and opportunities.**
-        PM SHRI Govt High School proudly stands for **education without discrimination and without economic burden**.
+        We strongly believe that <strong>every child — regardless of background — deserves equal access to quality education, care and opportunities.</strong>
+        PM SHRI Govt High School proudly stands for <strong>education without discrimination and without economic burden</strong>.
       </p>
     </section>
   );

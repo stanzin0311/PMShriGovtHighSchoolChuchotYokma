@@ -25,6 +25,8 @@ import ResourceRoom from "./ResourceRoom.jpeg";
 import PhysiotherapyRoom from "./PhysiotherapyRoom.jpeg";
 import ComputerLab from "./ComputerLab.jpeg";
 import ScienceLab from "./ScienceLab.jpeg";
+import laboratory from "./laboratory.jpeg";
+import sport from "./sport.jpeg";
 import library from "./library.jpeg";
 import brailleClass from "./brailleClass.jpeg";
 import knittingClass from "./knittingClass.jpeg";
@@ -40,7 +42,12 @@ import RigzenAngmo from "./RigzenAngmo.avif";
 import contactOffice from "./contactOffice.jpeg";
 import kindergarten1 from "./kindergarten1.jpeg";
 import kindergartenGroup from "./kindergartenGroup.jpeg";
-import schoolOpeningTime from "./schoolOpeningTime.avif";
+import juniorsection1 from "./juniorsection1.jpeg";
+import juniorsection2 from "./juniorsection2.jpeg";
+import middleschool1 from "./middleschool1.jpeg";
+import middleschool2 from "./middleschool2.jpeg";
+import middleschool3 from "./middleschool3.jpeg";
+import schoolOpeningTime from "./schoolOpeningTime.jpeg";
 import football from "./football.jpg";
 import sport3 from "./sport3.jpg";
 import StudentClubs from "./StudentClubs.avif";
@@ -93,8 +100,11 @@ export const assets = {
   ComputerLab,
   SportsPlayground,
   ScienceLab,
+  sport,
   knittingClass,
   brailleClass,
+  juniorsection1,
+  juniorsection2,
   whyus1,
   whyus2,
   whyus3,
@@ -109,6 +119,10 @@ export const assets = {
   kindergarten1,
   kindergartenGroup,
   library,
+  laboratory,
+  middleschool1,
+  middleschool2,
+  middleschool3,
   schoolOpeningTime,
   rollerScate,
   football,

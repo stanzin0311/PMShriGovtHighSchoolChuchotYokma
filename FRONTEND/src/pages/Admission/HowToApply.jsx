@@ -4,6 +4,7 @@ import { Mail, Calendar, Clipboard, CheckCircle, FileText, CreditCard } from "lu
 const HowToApply = () => {
   return (
     <div className="max-w-7xl mx-auto px-2 py-8 pt-6 space-y-6 bg-white rounded-xl shadow-lg">
+      
       {/* Title */}
       <h1 className="text-3xl md:text-4xl font-bold text-rose-700 border-b-4 border-rose-200 pb-3">
         Admission Process: PM Shri Govt High School Chuchot Yokma
@@ -11,7 +12,9 @@ const HowToApply = () => {
 
       {/* Introduction */}
       <p className="text-gray-700 leading-relaxed">
-        Admissions at <span className="font-semibold text-rose-700">PM Shri Govt High School Chuchot Yokma</span> are conducted with clarity, fairness and transparency by following the guidelines of the <strong>National Education Policy (NEP)</strong>.
+        Admissions at <span className="font-semibold text-rose-700">PM Shri Govt High School Chuchot Yokma</span> 
+        are conducted with clarity, fairness and transparency by following the guidelines of the 
+        <strong> National Education Policy (NEP)</strong>.
       </p>
 
       {/* Contact */}
@@ -38,7 +41,8 @@ const HowToApply = () => {
 
         <ul className="list-disc list-inside text-gray-700 space-y-2">
           <li>
-            <strong>Ninth Class:</strong> Admissions are conducted in <strong>November – December</strong>.
+            <strong>Ninth Class:</strong> Admissions are conducted in 
+            <strong> November – December</strong>.
           </li>
           <li>
             <strong>Other Classes (Transfer Cases):</strong> Admissions depend on seat availability.
@@ -57,12 +61,13 @@ const HowToApply = () => {
         </h2>
 
         <div className="space-y-6">
+
           <div className="border border-rose-100 p-5 rounded-xl shadow-sm bg-gray-20">
             <h3 className="font-semibold text-rose-700 mb-2 flex items-center gap-2">
               <FileText className="w-5 h-5" /> Step 1: Collect the Application Form
             </h3>
             <p className="text-gray-700">
-              Application forms are available **only from the School Office** during the admission period.
+              Application forms are available <strong>only from the School Office</strong> during the admission period.
             </p>
           </div>
 
@@ -81,8 +86,8 @@ const HowToApply = () => {
               <Mail className="w-5 h-5" /> Step 3: Selection Process
             </h3>
             <p className="text-gray-700">
-              The selection list will be displayed **on the School Notice Board on the same day**.
-              Parents & students are required to be present for verification if selected.
+              The selection list will be displayed <strong>on the School Notice Board on the same day</strong>.
+              Parents and students are required to be present for verification if selected.
             </p>
           </div>
 
@@ -91,21 +96,23 @@ const HowToApply = () => {
               <CreditCard className="w-5 h-5" /> Step 4: Final Admission
             </h3>
             <p className="text-gray-700">
-              After verification, admission is confirmed.  
+              After verification, admission is confirmed.{" "}
               <span className="font-semibold text-rose-700 underline">
                 There are absolutely NO FEES — education is completely free.
               </span>
             </p>
           </div>
+
         </div>
       </div>
 
       {/* No Payment Required */}
       <div className="text-center mt-10">
         <p className="text-lg font-semibold text-rose-700">
-          📌 PM Shri Govt High School Chuchot Yokma provides **free education for all students**.
+          📌 PM Shri Govt High School Chuchot Yokma provides <strong>free education for all students</strong>.
         </p>
       </div>
+
     </div>
   );
 };
