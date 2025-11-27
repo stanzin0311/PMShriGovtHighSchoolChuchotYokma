@@ -11,7 +11,7 @@ const Welcome = () => { // Renamed from History to Welcome for clarity
 
       {/* Intro Paragraph */}
       <p className="text-gray-700 leading-relaxed text-lg">
-        PM Shri Govt. High School Chuchot Yokma stands as a beacon of **modern, inclusive, and value-based education** in Ladakh. As a <span className="font-semibold text-rose-700">PM SHRI (Prime Minister Schools for Rising India)</span> institution, the school is supported by the Government of India through PM SHRI and Samagra Shiksha, ensuring high-quality and equitable learning opportunities for every child, fully aligned with the **National Education Policy (NEP) 2020**.
+        PM Shri Govt. High School Chuchot Yokma stands as a beacon of modern, inclusive, and value-based education in Ladakh. As a <span className="font-semibold text-rose-700">PM SHRI (Prime Minister Schools for Rising India)</span> institution, the school is supported by the Government of India through PM SHRI and Samagra Shiksha, ensuring high-quality and equitable learning opportunities for every child, fully aligned with the National Education Policy (NEP) 2020.
       </p>
 
       {/* Image and Story Section */}
@@ -21,17 +21,16 @@ const Welcome = () => { // Renamed from History to Welcome for clarity
           alt="Head of School Tashi Wangyal"
           className="
             w-full max-w-full h-64 sm:h-80 object-cover rounded-3xl shadow-2xl
-            mb-
             md:float-right md:w-[420px] md:h-[460px] md:ml-10 md:mb-3
             border-4 border-rose-200
             hover:scale-[1.02] transition-transform duration-300
           "
         />
         <p className="text-gray-700 leading-relaxed">
-          Nestled in the peaceful village of Chuchot Yokma, the school is pioneering the integration of **21st-century education** with the cultural richness and wisdom of the region. Here, learning goes beyond rote memory—students are encouraged to explore, question, and discover their unique strengths through hands-on and experiential methods.
+          Nestled in the peaceful village of Chuchot Yokma, the school is pioneering the integration of 21st-century education with the cultural richness and wisdom of the region. Here, learning goes beyond rote memory—students are encouraged to explore, question, and discover their unique strengths through hands-on and experiential methods.
         </p>
         <p className="text-gray-700 leading-relaxed">
-          The PM SHRI framework guides our focus on five key pillars: **Sustainable & Future-Ready Education**, **Social, Emotional & Ethical Learning (SEE)**, **Holistic Development**, **Cultural Rootedness**, and **Community Engagement**. This ensures a balanced education that prepares students not just for exams, but for life.
+          The PM SHRI framework guides our focus on five key pillars: Sustainable & Future-Ready Education, Social, Emotional & Ethical Learning (SEE), Holistic Development, Cultural Rootedness, and Community Engagement. This ensures a balanced education that prepares students not just for exams, but for life.
         </p>
         <div className="clear-both" />
       </div>

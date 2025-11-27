@@ -100,7 +100,7 @@ const Navbar = () => {
           <div className="hidden lg:block">
             <div className="text-sm font-bold text-gray-900">
               PM SHRI GOVT. HIGH SCHOOL CHUCHOT YOKMA,
-              <span>&nbsp; LEH LADAKH</span>
+               <span className="block">LEH LADAKH</span>
             </div>
           </div>
         </div>

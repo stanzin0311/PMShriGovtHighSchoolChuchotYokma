@@ -41,8 +41,9 @@ const PrincipalMessage = () => {
               <p
                 key={index}
                 className={index === 0 ? "inline" : "mt-4"}
-                dangerouslySetInnerHTML={{ __html: paragraph }}
-              />
+              >
+                {paragraph}
+              </p>
             ))}
             <span className="text-4xl text-rose-700 font-serif">”</span>
           </div>
