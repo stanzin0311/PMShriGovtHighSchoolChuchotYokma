@@ -179,40 +179,6 @@ const Footer = () => {
                             Subscribe to receive updates about school events.
                         </p>
 
-                        {/* Subscribe Button — RED */}
-                        <div className="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
-                            <input
-                                type="email"
-                                placeholder="Enter your email address"
-                                className="flex-1 px-4 py-2.5 border border-red-400 rounded-lg focus:ring-2 focus:ring-rose-700 text-sm"
-                                value={email}
-                                onChange={(e) => setEmail(e.target.value)}
-                            />
-                            <button
-                                onClick={handleSubscribe}
-                                disabled={isSubmitting}
-                                className={`px-6 py-2.5 bg-rose-700 text-white rounded-lg hover:bg-rose-800 focus:ring-2 focus:ring-rose-700 text-sm font-medium transition-colors duration-300 ${
-                                    isSubmitting ? "opacity-70 cursor-not-allowed" : ""
-                                }`}
-                            >
-                                {isSubmitting ? "Subscribing..." : "Subscribe"}
-                            </button>
-                        </div>
-
-                        {subscribeStatus && (
-                            <p
-                                className={`text-sm mt-3 ${
-                                    subscribeStatus.type === "success"
-                                        ? "text-green-600"
-                                        : "text-rose-700"
-                                }`}
-                            >
-                                {subscribeStatus.message}
-                            </p>
-                        )}
-                    </div>
-                </div>
-
                 {/* Bottom Bar */}
                 <div className="border-t border-red-300 pt-6 mt-6">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-700">
